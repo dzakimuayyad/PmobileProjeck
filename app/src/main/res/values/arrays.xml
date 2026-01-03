@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kategori_wisata">
+        <item>Candi</item>
+        <item>Pantai</item>
+        <item>Gunung</item>
+        <item>Museum</item>
+        <item>Taman</item>
+        <item>Kuliner</item>
+        <item>Belanja</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>

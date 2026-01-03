@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1070614106958",
+    "project_id": "pmobileprojeck-8c150",
+    "storage_bucket": "pmobileprojeck-8c150.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070614106958:android:c0f963c1bc3fc6f47f841f",
+        "android_client_info": {
+          "package_name": "com.example.pmobileprojeck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgwbIaNLD39PRtjCkV3043JMXX_3Vbpz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
