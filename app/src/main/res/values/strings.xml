@@ -3,4 +3,5 @@
     <string name="title_activity_wisata_actifity">WisataActifity</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_add_wisata">Tambah Wisata</string>
+    <string name="google_maps_key">AIzaSyDkovknzgwp0t2VbCmvJ6ss57ndS7k6LxM</string>
 </resources>

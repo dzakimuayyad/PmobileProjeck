@@ -3,7 +3,8 @@ package com.example.pmobileprojeck
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
+import android.widget.Button
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class WisataAdapter(
@@ -13,13 +14,23 @@ class WisataAdapter(
 ) : RecyclerView.Adapter<WisataAdapter.ViewHolder>() {
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+
+        private val tvNama: TextView = itemView.findViewById(R.id.tvNamaWisata)
+        private val tvDeskripsi: TextView = itemView.findViewById(R.id.tvDeskripsi)
+        private val btnDelete: Button = itemView.findViewById(R.id.btnDelete)
+
         fun bind(wisata: Wisata) {
+            // Set data ke view
+            tvNama.text = wisata.nama
+            tvDeskripsi.text = wisata.deskripsi
+
+            // Klik item → Maps
             itemView.setOnClickListener {
                 onItemClick(wisata)
             }
 
-            // Tombol hapus
-            itemView.findViewById<ImageView>(R.id.btnDelete).setOnClickListener {
+            // Klik hapus
+            btnDelete.setOnClickListener {
                 onDeleteClick(wisata)
             }
         }

@@ -15,50 +15,48 @@
             android:text="Tambah Objek Wisata"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp" />
 
         <EditText
             android:id="@+id/etNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nama Objek Wisata"/>
+            android:hint="Nama Objek Wisata"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etDeskripsi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Deskripsi Wisata"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:inputType="textMultiLine"
+            android:minLines="3" />
 
         <EditText
             android:id="@+id/etFasilitas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Fasilitas"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:inputType="textMultiLine"
+            android:minLines="2" />
 
-        <EditText
-            android:id="@+id/etLat"
-            android:layout_width="match_parent"
+        <!-- Lokasi diambil otomatis dari GPS -->
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Latitude"
-            android:inputType="numberDecimal"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/etLng"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Longitude"
-            android:inputType="numberDecimal"
-            android:layout_marginTop="8dp"/>
+            android:text="Lokasi akan diambil otomatis dari GPS"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="12dp" />
 
         <Button
             android:id="@+id/btnSimpan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Simpan Data Wisata"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp" />
 
     </LinearLayout>
 </ScrollView>
